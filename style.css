@@ -1,0 +1,71 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    height: 480px;
+    width: 480px;
+    margin-top: 5vh;
+    margin-left: calc(50vw - 240px);
+    grid-template-rows: repeat(var(--grid-rows), auto);
+    grid-template-columns: repeat(var(--grid-cols), auto);
+  }
+  
+  .grid-item {
+    
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+  }
+
+  h1 {
+    font-size: 48px;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  body {
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    color: yellow;
+    font-size: 20px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  #inp{
+    text-align: center;
+    margin-top: 2vh;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  #val{
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 20px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+   
